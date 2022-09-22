@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Заголовок страницы</title>
+    <link type="text/css" href="Style.css" rel="stylesheet" />
+    <script src="jquery-3.6.0.js"></script>
+
+</head>
+
+<body onload="Output();">
+    <article>
+        <form method="post" id="KommForm">
+            <div>
+                <input type="text" id="Komment" placeholder="Комментарий" name="Komment" />
+            </div>
+            <div>
+                <input type="text" id="User" placeholder="Имя автора" name="User" />
+            </div>
+            <div>
+                <input class="ClikKnop" type="submit" />
+                <input class="ClikKnop" type="reset" value="Очистить">
+            </div>
+        </form>
+        <div id="MessageSMS">
+
+        </div>
+    </article>
+    <script src="script.js"></script>
+</body>
+
+</html>

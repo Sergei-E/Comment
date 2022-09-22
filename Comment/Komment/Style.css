@@ -1,0 +1,38 @@
+article {
+    width: 90%;
+    height: auto;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+form {
+    width: 90%;
+    height: auto;
+    border: 1px solid blue;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+#Komment {
+    width: 98%;
+    height: 300px;
+    font-size: 24px;
+}
+
+#User {
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ClikKnop {
+    width: 15%;
+    height: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+}
